@@ -5,7 +5,7 @@ import { WatchContext } from "../pages/Home";
 import Close from "../assets/images/close.svg";
 
 function Header() {
-  const { watchList, setWatchList } = useContext(WatchContext);
+  const { watchList, setWatchList, setValuta } = useContext(WatchContext);
   const [sideBar, setSideBar] = useState(false);
 
   function handleSelect(e) {
