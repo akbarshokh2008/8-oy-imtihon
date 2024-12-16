@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  .my-container {
+    @apply container mx-auto max-w-[1280px];
+  }
+}
+@font-face {
+  font-family: montser;
+  src: url("./assets/fonts/Montserrat.woff2") format("woff2");
+}
+
+.slider {
+  background-image: url("./assets/images/slider-bg.png");
+  background-position: center;
+}
